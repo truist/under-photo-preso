@@ -14,8 +14,19 @@ h1 {
     padding-bottom: 0.5em;
 }
 h2 {
+    font-size: 60px;
+    padding-bottom: 0.5em;
+}
+h3 {
     font-size: 50px;
     padding-bottom: 0.5em;
+}
+
+div.massive {
+    height: 800px;
+}
+.massive h2 {
+    font-size: 50px;
 }
 
 ul li {
