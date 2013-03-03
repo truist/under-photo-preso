@@ -18,12 +18,15 @@
     display: inline-block;
 }
 #agenda.present .pop {
-    -webkit-transition: all .5s;
+    -webkit-transition: all 0.7s;
     -webkit-transition-delay: 1s;
     color: red;
     -webkit-transform: translateY(-10px);
 }
 
+#understanding {
+    height: 800px;
+}
 
 
 
