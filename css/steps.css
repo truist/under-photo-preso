@@ -11,6 +11,19 @@
     color: rgb(230, 230, 230);
 }
 
+#agenda {
+    width: 1200px;
+}
+#agenda .pop {
+    display: inline-block;
+}
+#agenda.present .pop {
+    -webkit-transition: all .5s;
+    -webkit-transition-delay: 1s;
+    color: red;
+    -webkit-transform: translateY(-10px);
+}
+
 
 
 

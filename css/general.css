@@ -1,5 +1,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 36px;
     background-color: black;
 }
 
@@ -8,17 +10,21 @@ a:hover, a:focus { text-decoration: underline; }
 
 h1 {
     font-size: 70px;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.5em;
 }
 h2 {
     font-size: 50px;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.5em;
 }
 
 ul li {
     list-style-type: disc;
     margin-left: 1em;
     padding-bottom: 0.5em;
+}
+
+li>ul {
+    font-size: 0.8em;
 }
 
 .step {
