@@ -24,6 +24,14 @@
     -webkit-transform: translateY(-10px);
 }
 
+#nudes.future img {
+    opacity: 0;
+}
+#nudes.present img {
+    -webkit-transition: all 0.7s;
+    -webkit-transition-delay: 0.5s;
+    opacity: 1;
+}
 
 
 
