@@ -33,6 +33,18 @@
     opacity: 1;
 }
 
+.has_appear.future .appear {
+    opacity: 0;
+}
+.has_appear.present .appear {
+    -webkit-transition: all 0.7s;
+    -webkit-transition-delay: 3s;
+    opacity: 1;
+}
+.has_appear.present .appear.later {
+    -webkit-transition-delay: 7s;
+}
+
 
 
 
